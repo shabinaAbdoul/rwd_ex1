@@ -1,0 +1,78 @@
+.main{
+    background-image: url("../img/natural.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: red;
+    padding: 5px; 
+    text-align: center;
+    margin:0px; 
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+div p img{
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+    border-radius: 20px;
+    float:left;  
+    margin-right:15px;
+} 
+.line{   
+    clear:left;
+    border-bottom: solid 2px black;
+    padding-top: 5px;
+}
+.content
+{
+    background-color: rgba(236, 230, 230, 0.774);
+    padding: 5px;
+    width:90%;
+   margin:auto;
+   margin-bottom: -15px;
+}
+footer{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    /* line-height: 1px; */
+}
+footer img{
+    width:40px;
+    height:40px;
+    border-radius: 100%;    
+}
+
+.text
+{
+    margin-top: 55px;
+    
+}
+@media screen and (max-device-width:420px)
+{
+div p img{
+width:100%;
+
+}
+li {
+    display:block;
+    }
+ul{
+    margin-left:-25px;
+}
+}
+
+
+
+
